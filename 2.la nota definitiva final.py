@@ -1,0 +1,10 @@
+print ("NOTA DEFINITIVA DE UN TRIPULANTE ")
+ 
+n1= float (input ("ingrese por favor la nota reto 1: "))
+n2= float (input ("ingrese por favor la nota reto 2: "))
+n3= float (input ("ingrese por favor la nota reto 3: "))
+n4= float (input ("ingrese por favor la nota reto 4: "))
+n5= float (input ("ingrese por favor la nota reto 5: "))
+n6= float (input ("ingrese por favor la nota de ingles: "))
+NFINAL= ((n1*0.10)+(n2*0.10)+(n3*0.20)+(n4*0.20)+(n5*0.20)+(n6*0.20))
+print ("la nota definitiva del tripulante es : ", NFINAL)
